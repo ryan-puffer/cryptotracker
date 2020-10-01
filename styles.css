@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(65, 165, 165), rgb(65, 140, 100));
+    font-size: 62.5%;
+    color: white;
+    height: 100vh;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.search input {
+    width: 30%;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    background: black;
+    width: 200px;
+    height: 350px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    justify-content: space-around;
+}
+
